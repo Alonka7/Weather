@@ -1,0 +1,48 @@
+#main {
+    width: 100%;
+    height: 100%;
+}
+#main_1{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+#main_2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+#location{
+    width: 48%;
+    height: 100%;
+    order: 1;
+    text-align: center;
+    padding: 5px;
+    color: #408ae2;
+}
+#current{
+    width: 48%;
+    height: 100%;
+    order: 2;
+    text-align: center;
+    padding: 5px;
+    color: #408ae2;
+}
+.day{
+    width: 12.5%;
+    height: 100%;
+    justify-content: space-around;
+    border: 1px solid #2171d0;
+    text-align: center;
+    padding: 5px;
+    color: #408ae2;   
+}
+h4{
+    color: black;
+}
+hr{
+    width: 40%;
+    border-bottom: 1px solid #408ae2;
+}
+
+    

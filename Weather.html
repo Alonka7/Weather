@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Weather</title>
+		<script
+			src="http://code.jquery.com/jquery-3.2.1.min.js"
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			crossorigin="anonymous">
+		</script>
+		
+		<script src="Weather.js"></script> <!-- Jquery doc -->
+		<script src="skycons.js"></script>
+        <link rel="stylesheet" href="style-weather.css" type="text/css"/>
+		
+	</head>
+	<body>		
+		<div id="main">
+			
+			
+			<div id="main_1">
+                <div id="location">
+                    <h3><b> Your Location </b></h3><hr>
+                    
+                    <p id="latitude">latitude</p>
+                    <p id="longitude">longitude</p>
+                    <p id="Location">Location</p><br>
+                    
+                </div> <!--/location-->
+                
+                <div id="current">
+                    <h3><b> Current Weather </b></h3><hr>		
+                    <canvas id="icon11" width="30" height="30"></canvas>
+                    <p id="Desc0"></p>
+                    <p id="Temp">Temp</p>
+                    <p id="Summary">Summary</p>
+                </div> <!--/current-->
+            </div> <!--/main_1-->
+            <div id="main_2">
+                <div class="day">
+                    <h4><b> Sunday </b></h4><br>
+                    <canvas id="icon_0" width="30" height="30"></canvas>
+                    <p id="Desc_0">Desc_0</p>
+                    <p id="Min_0">Min</p>
+                    <p id="Max_0">Max</p>
+			    </div> <!--/day-->
+                
+                 <div class="day"> 
+                    <h4><b> Monday </b></h4><br>
+                    <canvas id="icon_1" width="30" height="30"></canvas>
+                    <p id="Desc_1">Desc_1</p>
+                    <p id="Min_1">Min</p>
+                    <p id="Max_1">Max</p>
+			    </div> <!--/day-->
+                
+                 <div class="day">
+                    <h4><b> Tuesday </b></h4>
+                    <canvas id="icon_2" width="30" height="30"></canvas>
+                    <p id="Desc_2">Desc_2</p>
+                    <p id="Min_2">Min</p>
+                    <p id="Max_2">Max</p>
+			    </div> <!--/day-->
+                
+                <div class="day">
+                    <h4><b> Wednesday </b></h4>
+                    <canvas id="icon_3" width="30" height="30"></canvas>
+                    <p id="Desc_3">Desc_3</p>
+                    <p id="Min_3">Min</p>
+                    <p id="Max_3">Max</p>
+			    </div> <!--/day-->
+                
+                <div class="day">
+                    <h4><b> Thursday </b></h4>
+                    <canvas id="icon_4" width="30" height="30"></canvas>
+                    <p id="Desc_4">Desc_4</p>
+                    <p id="Min_4">Min</p>
+                    <p id="Max_4">Max</p>
+			    </div> <!--/day-->
+                
+                <div class="day">
+                    <h4><b> Friday </b></h4>
+                    <canvas id="icon_5" width="30" height="30"></canvas>
+                    <p id="Desc_5">Desc_5</p>
+                    <p id="Min_5">Min</p>
+                    <p id="Max_5">Max</p>
+			    </div> <!--/day-->
+                
+                <div class="day">
+                    <h4><b> Saturday </b></h4><br>
+                    <canvas id="icon_6" width="30" height="30"></canvas>
+                    <p id="Desc_6">Desc_6</p>
+                    <p id="Min_6">Min</p>
+                    <p id="Max_6">Max</p>
+			    </div> <!--/day-->
+                
+                <div class="day">
+                    <h4><b> Sunday </b></h4>
+                    <canvas id="icon_7" width="30" height="30"></canvas>
+                    <p id="Desc_7">Desc_7</p>
+                    <p id="Min_7">Min</p>
+                    <p id="Max_7">Max</p>
+                </div> <!--/day-->
+			</div> <!--/main_2-->
+		</div><!-- id="main" -->
+	</body>
+</html>
